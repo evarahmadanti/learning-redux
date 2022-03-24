@@ -1,0 +1,9 @@
+{
+    type: "productAddedToCart",
+    payload: {
+        id: 1,
+        quantity: 4
+    }
+}
+
+

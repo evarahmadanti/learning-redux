@@ -1,0 +1,22 @@
+{
+    type: "productAdded",
+    payload: {
+        name: "Tas",
+        price: 500000,
+    }
+}
+
+{
+    type: "productRemoved",
+    payload: {
+        id: 1
+    }
+}
+
+{
+    type: "markDiscountProduct",
+    payload: {
+        id: 1,
+        
+    }
+}
