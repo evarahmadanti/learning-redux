@@ -1,7 +1,9 @@
 import store from "./store/store";
 // import * as actions from './store/product/actionType';
-import reducer, { productRemoved } from './store/product';
-import { productAdded, productMarkAsDiscount } from "./store/product/actions";
+// import reducer, { productRemoved } from './store/product';
+// import { productAdded, productMarkAsDiscount } from "./store/product/actions";
+
+import { productAdded, productMarkAsDiscount} from "./store/newProduct"
 
 store.subscribe(() => {
     console.log('Store changed!', store.getState());
@@ -12,9 +14,9 @@ store.dispatch(productAdded({
     price: 5000000000
 }));
 
-store.dispatch(productRemoved({
-    id: 1
-}));
+// store.dispatch(productRemoved({
+//     id: 1
+// }));
 
 store.dispatch(productAdded({ 
     name: "Sepatu Branded",
