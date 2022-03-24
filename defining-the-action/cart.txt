@@ -6,4 +6,10 @@
     }
 }
 
-
+{
+    type: "productRemoveFromCart",
+    payload: {
+        id: 1,
+        quantity: 4
+    }
+}

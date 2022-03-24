@@ -1,4 +1,7 @@
 {
     id: 1, 
-    username: "",
+    username: "evarahmadanti",
+    name: "eva rahmadanti",
+    password: "687gyug",
+    email: "eva@mitrais.com"
 }

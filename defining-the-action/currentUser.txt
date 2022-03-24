@@ -1,0 +1,17 @@
+{
+    type: "userAdded",
+    payload: {
+        id: "1",
+        username: "evarahmadanti",
+        name: "eva rahmadanti",
+        password: "687gyug",
+        email: "eva@mitrais.com"
+    }
+}
+
+{
+    type: "userRemoved",
+    payload: {
+        id: ""
+    }
+}

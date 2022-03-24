@@ -17,6 +17,5 @@
     type: "markDiscountProduct",
     payload: {
         id: 1,
-        
     }
 }
